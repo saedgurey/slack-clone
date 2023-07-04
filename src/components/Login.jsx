@@ -14,7 +14,7 @@ const Login = () => {
     }
 
     return (
-        <login>
+      
             <LoginContainer>
                 <LoginInnerContainer>
                     <svg 
@@ -25,7 +25,7 @@ const Login = () => {
                     <Button onClick={signIn}>Sign in with google</Button>
                 </LoginInnerContainer>
             </LoginContainer>
-        </login>
+       
     )
 }
 
