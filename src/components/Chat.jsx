@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { selectRoomId } from '../features/appSlice';
 import { useCollection, useDocument } from 'react-firebase-hooks/firestore';
 import ChatInput from './ChatInput';
-import { db } from '../firebase';
+import { db } from '../config/firebase';
 import Message from './Message';
 
 const Chat = () => {

@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components';
-import { auth, provider } from '../firebase';
+import { auth, provider } from '../config/firebase';
 
 const Login = () => {
 

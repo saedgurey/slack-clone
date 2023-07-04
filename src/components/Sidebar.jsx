@@ -9,7 +9,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 
 import { BookmarkBorder, ExpandLess, PeopleAlt, InsertComment, FileCopy, Inbox, Apps, ExpandMore, Add } from '@mui/icons-material';
-import { auth, db } from '../firebase';
+import { auth, db } from '../config/firebase';
 
 const Sidebar = () => {
   const [user] = useAuthState(auth)

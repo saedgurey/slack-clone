@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import React, { useRef, useState } from 'react'
 import styled from "styled-components";
-import { db } from '../firebase';
+import { db } from '../config/firebase';
 import firebase from 'firebase/compat/app';
 
 
